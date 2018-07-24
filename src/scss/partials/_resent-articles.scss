@@ -1,0 +1,156 @@
+.resent-articles {
+  background-color: #5f2b20;
+
+  .container {
+    width: 94%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    article {
+      width: 200px;
+      color: #fff;
+      
+      h3 {
+        font-size: 18px;
+        margin-bottom: -8px;
+        font-family: 'Playfair Display SC', serif;
+      }
+
+      p{
+        padding-bottom: 1rem;
+        border-bottom: 1px dotted #fff;
+      }
+    }
+  }
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .resent-articles {
+    .container {
+      article {
+        width: 100%;
+        color: #fff;
+        
+        h3 {
+          font-size: 18px;
+          margin-bottom: -8px;
+          font-family: 'Playfair Display SC', serif;
+        }
+  
+        p{
+          padding-bottom: 1rem;
+          border-bottom: 1px dotted #fff;
+        }
+
+        img {
+          display: block;
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .resent-articles {
+    .container {
+      article {
+        width: 48%;
+        color: #fff;
+        
+        h3 {
+          font-size: 18px;
+          margin-bottom: -8px;
+          font-family: 'Playfair Display SC', serif;
+        }
+  
+        p{
+          padding-bottom: 1rem;
+          border-bottom: 1px dotted #fff;
+        }
+
+        img {
+          display: block;
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+  .resent-articles {
+    .container {
+      article {
+        width: 48%;
+        color: #fff;
+        
+        h3 {
+          font-size: 18px;
+          margin-bottom: -8px;
+          font-family: 'Playfair Display SC', serif;
+        }
+  
+        p{
+          padding-bottom: 1rem;
+          border-bottom: 1px dotted #fff;
+        }
+
+        img {
+          display: block;
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+}
