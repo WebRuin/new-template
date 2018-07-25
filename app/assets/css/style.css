@@ -15,8 +15,16 @@
 html {
   font-size: 62.5%; }
 
+@font-face {
+  font-family: "Playfair Display SC Black Black";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/PlayfairDisplaySC-Black.ttf") format("ttf");
+  font-display: swap; }
+
 body {
-  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font: 300 13px/1.6 "Helvetica", "Arial", sans-serif;
   color: #444;
   transition: all .4s .3s ease-in; }
 
@@ -399,7 +407,7 @@ textarea {
   .header .hero {
     padding: 0 1.5rem;
     width: 50%;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Playfair Display SC Black', serif;
     color: #fff; }
     .header .hero h1 {
       font-size: 50px;
@@ -422,7 +430,7 @@ textarea {
       .header .menu .menu-box h2 {
         margin: 0rem;
         font-size: 20px;
-        font-family: 'Playfair Display SC', serif; }
+        font-family: 'Playfair Display SC Black', serif; }
       .header .menu .menu-box p {
         margin: 0;
         font-size: 12px; }
@@ -517,7 +525,7 @@ textarea {
         color: #fff;
         font-size: 32px;
         margin-bottom: 4px;
-        font-family: 'Playfair Display SC', serif; }
+        font-family: 'Playfair Display SC Black', serif; }
       .feature .container .feature-text-block p {
         border-top: 1px dotted black;
         padding: 15px 0;
@@ -526,7 +534,7 @@ textarea {
         padding: 1.5rem;
         border: 1px dotted black;
         font-size: 18px;
-        font-family: 'Playfair Display SC', serif;
+        font-family: 'Playfair Display SC Black', serif;
         text-decoration: none;
         color: #5f2b20; }
         .feature .container .feature-text-block a i {
@@ -659,7 +667,7 @@ textarea {
       .resent-articles .container article h3 {
         font-size: 18px;
         margin-bottom: -8px;
-        font-family: 'Playfair Display SC', serif; }
+        font-family: 'Playfair Display SC Black', serif; }
       .resent-articles .container article p {
         padding-bottom: 1rem;
         border-bottom: 1px dotted #fff; }
@@ -673,7 +681,7 @@ textarea {
     .resent-articles .container article h3 {
       font-size: 18px;
       margin-bottom: -8px;
-      font-family: 'Playfair Display SC', serif; }
+      font-family: 'Playfair Display SC Black', serif; }
     .resent-articles .container article p {
       padding-bottom: 1rem;
       border-bottom: 1px dotted #fff; }
@@ -691,7 +699,7 @@ textarea {
     .resent-articles .container article h3 {
       font-size: 18px;
       margin-bottom: -8px;
-      font-family: 'Playfair Display SC', serif; }
+      font-family: 'Playfair Display SC Black', serif; }
     .resent-articles .container article p {
       padding-bottom: 1rem;
       border-bottom: 1px dotted #fff; }
@@ -710,7 +718,7 @@ textarea {
     .resent-articles .container article h3 {
       font-size: 18px;
       margin-bottom: -8px;
-      font-family: 'Playfair Display SC', serif; }
+      font-family: 'Playfair Display SC Black', serif; }
     .resent-articles .container article p {
       padding-bottom: 1rem;
       border-bottom: 1px dotted #fff; }
